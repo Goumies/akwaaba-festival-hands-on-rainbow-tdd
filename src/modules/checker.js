@@ -3,5 +3,5 @@ export const isRedFirst = (/* rainbow */) => {
 };
 
 export const isValidRainbow = (/* rainbow */) => {
-  return undefined
+  return undefined;
 }

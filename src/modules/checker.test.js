@@ -1,4 +1,4 @@
-import {isRedFirst} from "./checker";
+import { isRedFirst } from "./checker";
 
 describe("isRedFirst", () => {
   it("returns invalid rainbow, given a rainbow without colors", () => {

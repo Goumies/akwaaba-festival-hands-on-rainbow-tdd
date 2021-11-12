@@ -20,6 +20,19 @@ const Wrapper = styled.div`
   justify-content: center;
 `;
 
+const Buttons = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 800px;
+  gap: 1rem;
+`;
+
+const Button = styled.button`
+  height: 55px;
+  width: 145px;
+`;
+
 const Footer = styled.footer`
   display: flex;
   height: 80px;
@@ -46,6 +59,20 @@ function App() {
         <MagicStation />
         <RulesList />
       </Wrapper>
+      <Buttons>
+        <Button
+          type={"reset"}
+          onClick={() => {
+            const [_, ...rest] = rainbow;
+            setRainbow([...rest]);
+          }}
+        >
+          Shift
+        </Button>
+        <Button type={"reset"} onClick={() => setRainbow([])}>
+          Reset
+        </Button>
+      </Buttons>
       {isValidRainbow(rainbow) && (
         <Footer>
           <h3>--- Certified valid rainbow ---</h3>

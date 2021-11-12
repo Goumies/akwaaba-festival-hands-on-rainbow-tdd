@@ -5,7 +5,7 @@ import { lighten } from "polished";
 import { COLORS } from "../constants/colors";
 import { RainbowContext } from "../App";
 import { RainbowPlaceholder } from "./Rainbow/RainbowPlaceholder";
-import {Rainbow} from "./Rainbow/Rainbow";
+import { Rainbow } from "./Rainbow/Rainbow";
 
 const StyledMagicStation = styled.div`
   width: 100%;
@@ -26,35 +26,34 @@ const Block = styled.div`
   width: 43%;
 `;
 
+const UserRainbowColors = styled.span`
+  top: 20px;
+  font-size: 1em;
+  position: absolute;
+`;
+
 const Info = styled.span`
   top: -40px;
   right: 20px;
   font-size: 5em;
   position: absolute;
-  color: ${COLORS.GREY_DARK}
+  color: ${COLORS.GREY_DARK};
 `;
 
 export function MagicStation() {
   const { rainbow, setRainbow } = useContext(RainbowContext);
   return (
     <Block>
-      <button
-        type={"reset"}
-        onClick={() => {
-          const [_, ...rest] = rainbow
-          setRainbow([...rest]);
-        }}
-      >
-        Shift
-      </button>
       <StyledMagicStation>
+        <UserRainbowColors>
+          {rainbow.map((bow, index) =>
+            index === 0 ? `${bow.item}` : ` - ${bow.item}`
+          )}
+        </UserRainbowColors>
         {rainbow.length > 6 && <Info>...</Info>}
         {rainbow.length === 0 && <RainbowPlaceholder />}
         {rainbow.length > 0 && <Rainbow />}
       </StyledMagicStation>
-      <button type={"reset"} onClick={() => setRainbow([])}>
-        Reset
-      </button>
     </Block>
   );
 }

@@ -3,9 +3,9 @@ import styled from "styled-components";
 
 import { COLORS } from "../constants/colors";
 import { RainbowContext } from "../App";
-import {CheckIcon} from "./CheckIcon";
-import {isRedFirst} from "../modules/checker";
-import {Title} from "./Title";
+import { CheckIcon } from "./CheckIcon";
+import { isRedFirst } from "../modules/checker";
+import { Title } from "./Title";
 
 const Container = styled.div`
   display: flex;

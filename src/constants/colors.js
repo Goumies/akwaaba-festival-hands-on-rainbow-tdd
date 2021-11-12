@@ -7,7 +7,7 @@ export const COLORS = {
   MAIN: '#DB4747',
   RED: '#DB4747',
   ORANGE: '#db8c47',
-  YELLOW: '#dbb647',
+  YELLOW: '#FEDC2A',
   GREEN: '#62db47',
   BLUE: '#4767db',
   VIOLET: '#8047db'
