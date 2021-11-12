@@ -1,7 +1,6 @@
 {
-  "name": "akwaaba-festival-hands-on-tdd",
-  "version": "0.1.0",
-  "private": true,
+  "name": "akwaaba-festival-hands-on-rainbow-tdd",
+  "version": "1.0.0",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -16,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Goumies/akwaaba-festival-hands-on-tdd.git"
+    "url": "git+https://github.com/Goumies/akwaaba-festival-hands-on-rainbow-tdd.git"
   },
   "keywords": [
     "craft",
@@ -54,7 +53,7 @@
     "web-vitals": "2.1.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/jest-dom": "5.14.1",
     "prettier": "2.4.0"
   }
 }
