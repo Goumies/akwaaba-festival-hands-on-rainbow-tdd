@@ -17,7 +17,7 @@ cd [mon emplacement]
 ```
 
 ```
-git clone https://github.com/Goumies/akwaaba-festival-hands-on-tdd.git
+git clone https://github.com/Goumies/akwaaba-festival-hands-on-rainbow-tdd.git
 ```
 
 ## Installation des dépendances du projet
