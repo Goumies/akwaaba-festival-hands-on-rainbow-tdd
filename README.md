@@ -5,7 +5,7 @@ Le but de ce hands-on est de nous familiariser avec cette méthode de développe
 
 ## Installation pré-requise
 
-[Node, contexte d'exécution](https://nodejs.org/en/download/)
+[Node, contexte d'exécution](https://nodejs.org/en/download/)\
 Ce projet a été généré avec le script `create-react-app`. Pour en savoir plus: [READCREATEREACTAPP.md](./READCREATEREACTAPP.md)
 
 ## Clôner le repo Github
