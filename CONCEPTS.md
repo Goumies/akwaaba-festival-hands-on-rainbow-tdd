@@ -8,7 +8,7 @@ Refactor - j'améliore le code de production et de test en continu
 Le AAA décrit les phases de rédaction des cas de test :\
 Arrange - La mise en place du test\
 Act - L'appel de la méthode ou fonction à tester\
-Assert - L'assertion ou le test du comportement attendu\
+Assert - L'assertion ou le test du comportement attendu
 
 On peut commencer par l'assertion et remonter jusqu'à l'action.
 L'objectif est plus facile à atteindre en étant clairement établi.
