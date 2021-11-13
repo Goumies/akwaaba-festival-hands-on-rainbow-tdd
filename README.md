@@ -58,7 +58,7 @@ Les concepts abordés sont détaillés dans [CONCEPTS.md](./CONCEPTS.md)
 Pour la présentation du kata, tout est dans [RAINBOWMAKER.md](./RAINBOWMAKER.md)
 Les fichiers à modifier sont :
 - checker.js, pour le code de production
-- checker.js, pour le code de test
+- checker.test.js, pour le code de test
 - RulesList.js, pour rendre l'interface graphique dynamique(*)
 
 (*) Pour supprimer la première couleur, cliques sur "Shift". Pour réinitialiser l'arc-en-ciel, cliques sur "Reset".
