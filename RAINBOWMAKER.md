@@ -1,6 +1,5 @@
 # Rainbow maker
 La fabrication d'arcs-en-ciel standard répond aux spécifications suivantes, par ordre de priorité :
-- Chaque couleur est unique
 - Le rouge est en première position
 - L'orange se trouve entre le rouge et le jaune
 - Le jaune se situe après l'orange
