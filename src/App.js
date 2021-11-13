@@ -73,11 +73,11 @@ function App() {
           Reset
         </Button>
       </Buttons>
-      {isValidRainbow(rainbow) && (
+      {/*isValidRainbow(rainbow) && (
         <Footer>
           <h3>--- Certified valid rainbow ---</h3>
         </Footer>
-      )}
+      )*/}
     </RainbowContext.Provider>
   );
 }
