@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import { COLORS } from "../constants/colors";
+import {isRedFirst} from "../modules/checker";
 
 const Icon = styled.span`
   height: 20px;

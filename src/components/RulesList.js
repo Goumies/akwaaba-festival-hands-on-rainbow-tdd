@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { COLORS } from "../constants/colors";
 import { RainbowContext } from "../App";
 import { CheckIcon } from "./CheckIcon";
-import { isRedFirst } from "../modules/checker";
+import {isOrangeBetweenRedAndYellow, isRedFirst} from "../modules/checker";
 import { Title } from "./Title";
 
 const Container = styled.div`
@@ -39,11 +39,13 @@ export function RulesList() {
       <Title>Rules of a standard rainbow</Title>
       <List>
         <ListItem>
+          {console.log(rainbow)}
           <CheckIcon checked={isRedFirst(rainbow)} />
+          {console.log(isRedFirst(rainbow))}
           Red is the first
         </ListItem>
         <ListItem>
-          <CheckIcon checked={false} />
+          <CheckIcon checked={isOrangeBetweenRedAndYellow(rainbow)} />
           Orange is between red and yellow
         </ListItem>
         <ListItem>
